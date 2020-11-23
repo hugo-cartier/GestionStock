@@ -44,7 +44,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(Build.Repository.LocalPath)/GestionStock/WPFGestionStock/bin/Release'
+    SourceFolder: '$(Build.Repository.LocalPath)/WPFGestionStock/bin/Release'
     Contents: '**'
     TargetFolder: '$(Build.BinariesDirectory)'
     CleanTargetFolder: true
